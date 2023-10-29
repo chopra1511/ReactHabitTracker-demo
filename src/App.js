@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Home from "./components/ui/Home";
+import StartPage from "./components/ui/StartPage";
+import HabitPage from "./components/ui/HabitPage";
+import Habits from "./components/habitio/Habits";
+import WeekView from "./components/habitio/WeekView";
+
+const router = createBrowserRouter([
+  { path: "/", element: <Home /> },
+  { path: "/start-page", element: <StartPage /> },
+  { path: "/habitio", element: <HabitPage /> },
+  { path: "/all-habits", element: <Habits /> },
+  { path: "/today", element: <Habits /> },
+  { path: "/week-view", element: <WeekView /> },
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RouterProvider router={router}/>
+      {/* <Home /> */}
+      {/* <StartPage /> */}
+      {/* <HabitPage/> */}
+      {/* <Habits /> */}
+      {/* <WeekView/> */}
+    </>
   );
 }
 

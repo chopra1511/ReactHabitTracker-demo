@@ -1,0 +1,64 @@
+/* .habits {
+    height: 75vh;
+    overflow: auto;
+} */
+
+.card {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.265);
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: LEMON MILK;
+  padding: 0 20px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.title span {
+  padding-left: 20px;
+  font-family: Eras Light ITC;
+  font-size: 20px;
+}
+
+.emoji {
+  padding: 0 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.weekView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px 20px;
+  font-family: "Segoe UI";
+}
+
+.day {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
