@@ -8,7 +8,7 @@ import WeekView from "./components/habitio/WeekView";
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/ReactHabitTracker-demo",
       element: <Home />,
     },
     {
