@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import IconButton from "@mui/material/IconButton";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
@@ -9,8 +9,6 @@ import { uiActions } from "../../store/uiSlice";
 
 export default function WeekDisplay({ id, habitId, day, hStatus }) {
     const dispatch = useDispatch();
-    const week = useSelector((state) => state.ui.week)
-    const habits = useSelector((state) => state.ui.habits);
     // const Status = useSelector(
     //     (state) => state.ui[habitId]?.[day] || "None"
     //     );
