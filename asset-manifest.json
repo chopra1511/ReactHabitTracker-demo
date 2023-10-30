@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactHabitTracker-demo/static/css/main.2104eb9e.css",
-    "main.js": "/ReactHabitTracker-demo/static/js/main.1c8e828b.js",
+    "main.js": "/ReactHabitTracker-demo/static/js/main.75c367de.js",
     "static/js/787.41be8c11.chunk.js": "/ReactHabitTracker-demo/static/js/787.41be8c11.chunk.js",
     "static/media/habit.gif": "/ReactHabitTracker-demo/static/media/habit.6c9ea6baa330ab30182a.gif",
     "static/media/nohabits.gif": "/ReactHabitTracker-demo/static/media/nohabits.c864f06b0ebfca589c31.gif",
@@ -10,11 +10,11 @@
     "static/media/arrow.png": "/ReactHabitTracker-demo/static/media/arrow.b6cd0d7cb19f4b07546b.png",
     "index.html": "/ReactHabitTracker-demo/index.html",
     "main.2104eb9e.css.map": "/ReactHabitTracker-demo/static/css/main.2104eb9e.css.map",
-    "main.1c8e828b.js.map": "/ReactHabitTracker-demo/static/js/main.1c8e828b.js.map",
+    "main.75c367de.js.map": "/ReactHabitTracker-demo/static/js/main.75c367de.js.map",
     "787.41be8c11.chunk.js.map": "/ReactHabitTracker-demo/static/js/787.41be8c11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2104eb9e.css",
-    "static/js/main.1c8e828b.js"
+    "static/js/main.75c367de.js"
   ]
 }
